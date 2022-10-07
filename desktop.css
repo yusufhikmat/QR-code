@@ -1,0 +1,44 @@
+/* desktop responsive*/
+@media screen and (max-width:1440px) {
+    
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:hsl(212, 45%, 89%);
+    line-height: 1.5rem;
+    
+}
+.container{
+    margin:auto;
+    text-align: center;
+    width:280px;  
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    margin:10% 0%;
+    padding:15px;
+    border-radius: 10px;
+}
+.qr-image{
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+}
+.content{
+    padding:15px 15px 25px;
+}
+.heading-text{
+    color:hsl(218, 44%, 22%);
+    margin-bottom:15px;
+    font-weight: 700;
+}
+.text{
+    color:hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+}
+}
+
